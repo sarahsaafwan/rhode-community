@@ -69,3 +69,7 @@ html,body{background:#fff;color:#666560}
 @media(max-width:680px){.feature-media.two-up{grid-template-columns:1fr}.feature-media .editorial-figure img,.feature-media.two-up .editorial-figure img{height:390px}.feature-media.wide .editorial-figure img{height:260px}}
 
 .qna-personal-image{display:block;max-width:520px;margin:20px 0 26px}.qna-personal-image .editorial-figure img{height:330px;object-position:50% 30%}
+
+/* Keep shared content gutters when a section is also the page container. */
+.section.wrap{padding-left:4%;padding-right:4%}
+@media(max-width:540px){.section.wrap{padding-left:6%;padding-right:6%}}
